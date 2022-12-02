@@ -14,7 +14,10 @@ torso_1 = [
     Dress("Maglia oversize vodoo", 10, 4),
     Dress("Maglia palaye royale", 9, 3),
     Dress("Maglia barcellona holy tatoo wear", 9, 4),
-    Dress("Body righe bianche e nere", 9, 2)
+    Dress("Body righe bianche e nere", 9, 2),
+
+    Dress("Niente", 4, 1)
+
 ]
 
 torso_2 = [
@@ -25,7 +28,7 @@ torso_2 = [
     Dress("Salopette nera", 10, 4),
     Dress("Camicetta maniche a sbuffo", 10, 4),
     
-    Dress("Niente", 4, 1)
+    Dress("Niente", 5, 1)
 
 ]
 
@@ -39,7 +42,7 @@ torso_3 = [
     Dress("Felpa grmbuile con colletto", 9, 8),
     Dress("Giacca grigia", 6, 7),
 
-    Dress("Niente", 4, 1)
+    Dress("Niente", 5, 1)
 
 ]
 
@@ -47,22 +50,26 @@ legs = [
     Dress("Gonna nera", 10, 3),
     Dress("Gonna bianca e nera", 10, 3),
     Dress("Gonna verde", 9, 3),
+
     Dress("Pantaloni sci", 8, 10),
     Dress("Jeans neri zampa", 10, 7),
     Dress("Pants a righe verticali", 9, 7),
     Dress("Pants a qudri", 8, 7),
-    Dress("Pants nuovi gagi", 9, 7)
+    Dress("Pants nuovi gagi", 9, 7),
+
 ]
 
 feet_1 = [
-    Dress("Calzini qualsiasi", 6, 6),
+    Dress("Calzini qualsiasi", 6, 2),
+    Dress("Calzini muccati", 8, 2),
     Dress("Calzetti alti neri", 9, 2),
+
     Dress("Calze felpate", 8, 9),
     Dress("Antiscivolo verdi", 9, 9)
 ]
 
 feet_2 = [
-    Dress("Vans", 8, 6),
+    Dress("Vans", 8, 5),
     Dress("Creepers", 10, 7),
     Dress("Anfibi", 10, 9)
 ]

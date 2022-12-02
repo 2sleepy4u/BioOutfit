@@ -18,6 +18,7 @@ def index():
 def post_outfit():
     fashion     = int(request.args.get('fashion', 7))
     temperature = get_today_temperature(Trieste)
+    temperature = int(request.args.get("temperature", temperature))
 
     if fashion > 10 or fashion < 1:
         return Response('{"Error": "Fashion level out of range (1-10)"}', status=201, mimetype='application/json')
@@ -39,7 +40,7 @@ def post_outfit():
         result += f"<div>Oggi in media ci sono {temperature} C°</div>"
         result += f"<h3>Ti consiglio questo outfit: </h3>"
         result += f"<p style='margin:10px;'>{suggestion_log(population)}</p>"
-        result = f"<div>{result}</div>"
+        result  = f"<div>{result}</div>"
         return result
     except ValueError:
         return Response("E' molto probabile che i capi di abbigliamento non siano abbastanza bilanciati!")
