@@ -7,5 +7,6 @@ root
 |--- utility/  
 |   |--- temperature.py  
 |   |--- genetic_algorithm.py  
+|   |--- read_from_file.py
 |   |--- print.py  
 |--- main.py  
